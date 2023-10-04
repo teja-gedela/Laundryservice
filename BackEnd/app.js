@@ -15,7 +15,7 @@ app.use(bodyparser.urlencoded({ extended: false }));
 
 
 app.use('/',RegistrationRoute)
-// app.use('/',LoginRoute)
+app.use('/',LoginRoute)
 
 
 
